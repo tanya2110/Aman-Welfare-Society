@@ -1,0 +1,253 @@
+<!DOCTYPE html> <!-- The new doctype -->
+<html lang="en">
+    <head>
+    
+        <meta charset="utf-8">
+        
+        <title>Aman Welfare Society</title>
+        <link rel="icon" type="images/logo.jpg">
+		<link rel="stylesheet" type="text/css" href="styles/normalize.css">
+        <link rel="stylesheet" type="text/css" href="styles/main.css">
+        
+    </head>
+    
+    <body>+
+	   <nav class="clear">
+   	   <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#aboutus">About us</a></li>
+		<li><a href="pages/loginPage.html" target="_blank">Login</a></li>
+		<li><a href="pages/ContactUs.html">Contact us</a></li>
+		<li><a href="#volunteer">Join Our Community</a></li>
+		<li><a href="#events">Upcoming events</a></li>
+        <li class="dropdown">
+          <a class="dropbtn">Events History</a>
+          <div class="dropdown-content">
+            <a href="#article1">Dance Competition</a>
+            <a href="#article2">Drawing Competition</a> 
+            <a href="#article3">Teacher's day</a>
+	   	    <a href="#article4">Food distribution</a>
+	   	    <a href="#article5">Umbrella distribution</a>
+	   	    <a href="#article6">Sport's Club</a>
+          </div>
+        </li>
+       </ul>
+	   </nav>
+		
+    	<div class="slideshow-container">
+
+        <div class="mySlides fade">
+          <div class="numbertext">1 / 3</div>
+          <img class="resize" src="images/logo.jpg" style="width:100%">
+          <div class="text">Caption Text</div>
+        </div>
+        
+        <div class="mySlides fade">
+          <div class="numbertext">2 / 3</div>
+          <img class="resize" src="images/BsnlKeSitare.jpg" style="width:100%">
+          <div class="text">Caption Two</div>
+        </div>
+        
+        <div class="mySlides fade">
+          <div class="numbertext">3 / 3</div>
+          <img class="resize" src="images/WomaniyajiSportsClub.jpg" style="width:100%">
+          <div class="text">Caption Three</div>
+        </div>
+        
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        
+        </div>
+        <br>
+        
+        <div style="text-align:center">
+          <span class="dot" onclick="currentSlide(1)"></span> 
+          <span class="dot" onclick="currentSlide(2)"></span> 
+          <span class="dot" onclick="currentSlide(3)"></span> 
+        </div>
+        
+        <script>
+     var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 5000); // Change image every 5 seconds
+}        
+        </script>
+    	<section id="page"> <!-- Defining the #page section with the section tag -->
+    
+            <header> <!-- Defining the header section of the page with the appropriate tag -->
+            
+                <hgroup>
+					<h1>Aman Welfare Society</h1>
+					<h3>We believe in equality for all. Here's how we are constantly working towards achieving this:</h3>
+				</hgroup>              
+            
+            </header>
+            
+            <section id="articles"> <!-- A new section with the articles -->
+
+				<!-- Article 1 start -->
+
+                <div class="line"></div>  <!-- Dividing line -->
+                
+                <article id="article1"> <!-- The new article tag. The id is supplied so it can be scrolled into view. -->
+                    <h2>Dance Competition<a class="go_up" href="#" class="up">&uparrow;</a></h2>
+
+                    <div class="line"></div>
+                    
+                    <div class="articleBody clear">
+                    
+                    	<figure> <!-- The figure tag marks data (usually an image) that is part of the article -->
+	                    	<a href="pages/beetle.html"><img src="images/Event6.2.jpg" width="500" height="300"></a>
+                        </figure>
+                        
+                        <p>Why people of every age are crazy for dance, got to see in the BSNL ke Sitare Dance competition.
+                           The event was on peak and participants went through various levels of competition. The judges recognized some great talents 
+                           and gave participants very useful tips by seeing their great presentations! All participants were given certificates. 
+                           The grand finale winners were titled with "BSNL ke Sitare" and rewarded with exciting prizes, certificates and medals.</p>
+                        <p>President Mrs. * Manju Gupta * expressed gratitude and thanks to everyone on the successful event of dance audition organized by * AMAN WELFARE SOCIETY *</p>
+						<p class="pbold">Click on the image for more information</p>
+                    </div>
+                </article>
+                
+				<!-- Article 1 end -->
+
+
+				<!-- Article 2 start -->
+
+                <div class="line"></div>
+                
+                <article id="article2">
+                    <h2>Drawing Competition<a class="go_up" href="#" class="up">&uparrow;</a></h2>
+                    
+                    <div class="line"></div>
+                    
+                    <div class="articleBody clear">
+                    	<figure>
+	                    	<a href="pages/ghia.html"><img src="images/Event5.5.jpg" width="500" height="300" /></a>
+                        </figure>
+                        
+                        <p>An initiative by this NGO in helping slum kids showcase their talent on the occasion of Gandhi Jayanti. #MeraBharatMahan 🇮🇳</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer luctus quam quis nibh fringilla sit amet consectetur lectus malesuada. Sed nec libero erat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc mi nisi, rhoncus ut vestibulum ac, sollicitudin quis lorem. Duis felis dui, vulputate nec adipiscing nec, interdum vel tortor. Sed gravida, erat nec rutrum tincidunt, metus mauris imperdiet nunc, et elementum tortor nunc at eros. Donec malesuada congue molestie. Suspendisse potenti. Vestibulum cursus congue sem et feugiat. Morbi quis elit odio. </p>
+						<p class="pbold">Click on the image for more information</p>
+                    </div>
+                </article>
+                
+				<!-- Article 2 end -->
+
+				<!-- Article 3 start -->
+
+                <div class="line"></div>
+                
+                <article id="article3">
+                    <h2>Helping little children achieve their dreams<a class="go_up" href="#" class="up">&uparrow;</a></h2>
+                    
+                    <div class="line"></div>
+                    
+                    <div class="articleBody clear">
+                    	<figure>
+	                    	<a href="pages/bus.html"><img src="images/Event4.0.jpg" width="500" height="300" /></a>
+                        </figure>
+                        
+                        <p>On the occasion of teacher's day, Aman Welfare Society gifted music system to the underprivileged students to help them explore their hobbies and dreams apart from academic learning.</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer luctus quam quis nibh fringilla sit amet consectetur lectus malesuada. Sed nec libero erat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc mi nisi, rhoncus ut vestibulum ac, sollicitudin quis lorem. Duis felis dui, vulputate nec adipiscing nec, interdum vel tortor. Sed gravida, erat nec rutrum tincidunt, metus mauris imperdiet nunc, et elementum tortor nunc at eros. Donec malesuada congue molestie. Suspendisse potenti. Vestibulum cursus congue sem et feugiat. Morbi quis elit odio. </p>
+						<p class="pbold">Click on the image for more information</p>
+                    </div>
+                </article>
+                
+				<!-- Article 3 end -->
+
+				<!-- Article 4 start -->
+
+                <div class="line"></div>
+                
+                <article id="article4">
+                    <h2>PROVIDING FOOD, WATER AND SAFE SHELTER TO PEOPLE IN NEED<a class="go_up" href="#" class="up">&uparrow;</a></h2>
+                    
+                    <div class="line"></div>
+                    
+                    <div class="articleBody clear">
+                    	<figure>
+	                    	<a href="pages/thing.html"><img src="images/Event2.0.jpg" width="500" height="300" /></a>
+                        </figure>
+                        
+                        <p>Close to a billion people – one-eighth of the world’s population – still live in hunger. The motto of our NGO is- "One small step can make a difference"✨ Keeping this in mind, Aman Welfare Society donated food to the underprivileged section in the Cancer Hospital of Bhopal.</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer luctus quam quis nibh fringilla sit amet consectetur lectus malesuada. Sed nec libero erat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc mi nisi, rhoncus ut vestibulum ac, sollicitudin quis lorem. Duis felis dui, vulputate nec adipiscing nec, interdum vel tortor. Sed gravida, erat nec rutrum tincidunt, metus mauris imperdiet nunc, et elementum tortor nunc at eros. Donec malesuada congue molestie. Suspendisse potenti. Vestibulum cursus congue sem et feugiat. Morbi quis elit odio. </p>
+						<p class="pbold">Click on the image for more information</p>
+                    </div>
+                </article>
+                
+				<!-- Article 4 end -->
+				
+				<!-- Article 5 start -->
+
+                <div class="line"></div>
+                
+                <article id="article5">
+                    <h2>DISTRIBUTION OF UMBRELLA<a class="go_up" href="#" class="up">&uparrow;</a></h2>
+                    
+                    <div class="line"></div>
+                    
+                    <div class="articleBody clear">
+                    	<figure>
+	                    	<a href="pages/thing.html"><img src="images/Event3.0.jpg" width="500" height="300" /></a>
+                        </figure>
+                        
+                        <p>It does not become hurdle to go to the school, by thinking of this, umbrella distribution ceremony was done by Aman welfare society for children in pampāpura slum colony in rainy season.</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer luctus quam quis nibh fringilla sit amet consectetur lectus malesuada. Sed nec libero erat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc mi nisi, rhoncus ut vestibulum ac, sollicitudin quis lorem. Duis felis dui, vulputate nec adipiscing nec, interdum vel tortor. Sed gravida, erat nec rutrum tincidunt, metus mauris imperdiet nunc, et elementum tortor nunc at eros. Donec malesuada congue molestie. Suspendisse potenti. Vestibulum cursus congue sem et feugiat. Morbi quis elit odio. </p>
+						<p class="pbold">Click on the image for more information</p>
+                    </div>
+                </article>
+                
+				<!-- Article 5 end -->
+				
+				<!-- Article 6 start -->
+
+                <div class="line"></div>
+                
+                <article id="article6">
+                    <h2>SPORT'S CLUB<a class="go_up" href="#" class="up">&uparrow;</a></h2>
+                    
+                    <div class="line"></div>
+                    
+                    <div class="articleBody clear">
+                    	<figure>
+	                    	<a href="pages/thing.html"><img src="images/Event1.1.jpg" width="500" height="300" /></a>
+                        </figure>
+                        
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer luctus quam quis nibh fringilla sit amet consectetur lectus malesuada. Sed nec libero erat. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer luctus quam quis nibh fringilla sit amet consectetur lectus malesuada. Sed nec libero erat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc mi nisi, rhoncus ut vestibulum ac, sollicitudin quis lorem. Duis felis dui, vulputate nec adipiscing nec, interdum vel tortor. Sed gravida, erat nec rutrum tincidunt, metus mauris imperdiet nunc, et elementum tortor nunc at eros. Donec malesuada congue molestie. Suspendisse potenti. Vestibulum cursus congue sem et feugiat. Morbi quis elit odio. </p>
+						<p class="pbold">Click on the image for more information</p>
+                    </div>
+                </article>
+                
+				<!-- Article 6 end -->
+
+            </section>
+
+        <footer> <!-- Marking the footer section -->
+
+           <div class="line"></div>
+           
+           <p>Copyright 2020 - facebook.com/bsnlkesitare/</p> <!-- Change the copyright notice -->
+         
+        </footer>
+            
+		</section> <!-- Closing the #page section -->
+        
+    </body>
+</html>
